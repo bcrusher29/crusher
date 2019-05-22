@@ -1,32 +1,37 @@
-<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
-<addon 	id="repository.unfocused" 
-		name="[B][COLOR orange]shitman [/COLOR][COLOR maroon]MEDIA [/COLOR][COLOR orange]REPO[/COLOR][/B]" 
-		version="1.0.2" 
-		provider-name="Mark Reeves productions">
-	<extension point="xbmc.addon.repository" name="stealth: Repository">
-		<info compressed="false">https://raw.githubusercontent.com/bcrusher29/unfocused/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/bcrusher29/unfocused/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/bcrusher29/unfocused/master/zips/</datadir>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.unfocused" name="unfocused" version="1.0.3" provider-name="shitman media">
+	<extension point="xbmc.addon.repository" name="Unfocused REPO">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/bcrusher29/unfocused/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/bcrusher29/unfocused/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/bcrusher29/unfocused/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/zips/</datadir>
+		</dir>
 		<dir>
             <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
         </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		<dir>
+                <info compressed="false">https://raw.githubusercontent.com/Guilouz/repository.guilouz/master/_repo/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Guilouz/repository.guilouz/master/_repo/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/Guilouz/repository.guilouz/raw/master/_repo</datadir>
         </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR orange]THE ONLY WAY TO GET OFFICIAL ShitMAN MEDIA ADDONS IS THROUGH OUR REPO![/COLOR]</summary>
-		<description></description>
-		<news>[COLOR orange]shitMAN MEDIA DOING WORK YO! STAY TUNED![/COLOR]</news>
-		<platform>all</platform>
+		<summary lang="en">come to us for shitty addons also all non password needed sandman media here</summary>
+		<description lang="en">unfocused Repo</description>
+		<genre></genre>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <banner></banner>
+        <clearlogo></clearlogo>
+        <screenshot></screenshot>
+    </assets>
 	</extension>
 </addon>
